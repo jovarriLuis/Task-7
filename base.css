@@ -1,0 +1,19 @@
+
+:root {
+  --bg: #eef5ff;
+  --card: #ffffff;
+  --primary: #2563eb;
+  --text: #0f172a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}

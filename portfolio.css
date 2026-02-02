@@ -1,0 +1,25 @@
+
+.portfolio-body {
+  background: var(--bg);
+}
+
+/* Bento layout */
+.portfolio-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.section-card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(37,99,235,0.12);
+}
+
+.section-card.span-2 {
+  grid-column: span 2;
+}
